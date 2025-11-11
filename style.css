@@ -1,9 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f3f3f3;
   text-align: center;
-  margin: 0;
-  padding: 30px;
+  background: #f2f2f2;
 }
 
 .hidden {
@@ -12,27 +10,11 @@ body {
 
 #messages {
   border: 1px solid #ccc;
+  width: 80%;
   height: 300px;
-  overflow-y: auto;
   margin: 20px auto;
-  padding: 10px;
-  width: 90%;
   background: #fff;
-}
-
-#messages div {
+  overflow-y: auto;
   text-align: left;
-  padding: 5px 0;
-}
-
-input {
-  padding: 8px;
-  margin: 5px;
-  width: 200px;
-}
-
-button {
-  padding: 8px 12px;
-  margin: 5px;
-  cursor: pointer;
+  padding: 10px;
 }
